@@ -1,0 +1,28 @@
+
+# Site settings
+title: Muddan Thyagaraj – Freelance ITSM & Digital Transformation Consultant
+description: Portfolio showcasing 20+ years of IT leadership in ITSM, Cloud Migrations, and AI-powered automation.
+url: "https://your-github-username.github.io"
+baseurl: "/muddan-portfolio"
+
+# Author settings
+author:
+  name: Muddan Thyagaraj
+  email: muddankt@outlook.com
+  linkedin: https://www.linkedin.com/in/muddan/
+
+# GitHub Pages deployment
+theme: null
+markdown: kramdown
+plugins: []
+
+exclude:
+  - README.md
+  - LICENSE
+  - .github/
+  - node_modules/
+  - vendor/
+  - .nojekyll
+
+google_analytics: false
+timezone: Asia/Kolkata
