@@ -1,0 +1,29 @@
+# Site settings
+title: Muddan Thyagaraj – Freelance ITSM & Digital Transformation Consultant
+description: Portfolio showcasing 20+ years of IT leadership in ITSM, Cloud Migrations, and AI-powered automation.
+url: "https://your-github-username.github.io" # Change this to your GitHub Pages URL
+baseurl: "/muddan-portfolio" # Change this if your repository name is different
+
+# Author settings
+author:
+  name: Muddan Thyagaraj
+  email: muddankt@outlook.com
+  linkedin: https://www.linkedin.com/in/muddan/
+
+# GitHub Pages deployment
+theme: null  # Disable Jekyll themes (HTML only)
+markdown: kramdown
+plugins: []  # No plugins for static site
+
+# Exclude default Jekyll processing (ensure static HTML works)
+exclude:
+  - README.md
+  - LICENSE
+  - .github/
+  - node_modules/
+  - vendor/
+  - .nojekyll  # This file ensures GitHub Pages bypasses Jekyll
+
+# Optional SEO tags
+google_analytics: false
+timezone: Asia/Kolkata
